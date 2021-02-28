@@ -60,5 +60,6 @@ if __name__ == '__main__':
         print_file_name(conf.file_path,conf.file_size)
     elif conf.command == 'folder':
         print(get_files_in_folder(conf.folder_path,conf.file_type))
+    print('Hellp CI')
 
 
